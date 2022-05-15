@@ -1,5 +1,5 @@
 //LINKY
-const huby=["huby\\images (1).jpg"]
+const huby=["cd\\huby\\images (1).jpg"]
 
 const riasy=["C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\riasy\\cervena.jpg",
             "C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\riasy\\hneda.jpg",
