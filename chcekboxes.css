@@ -96,8 +96,8 @@ input[type="checkbox"].toggle {
     .checkBoxSection {
         width: 100%;
         display: grid;
-        /*justify-content: space-between;*/
-        /*grid-template-columns: 50% 50%;*/
+        justify-content: space-between;
+        grid-template-columns: 50% 50%;
     }
 }
 
