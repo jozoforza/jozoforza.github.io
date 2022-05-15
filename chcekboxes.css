@@ -100,3 +100,12 @@ input[type="checkbox"].toggle {
         grid-template-columns: 50% 50%;
     }
 }
+
+@media only screen and (max-width: 850px) {
+   .checkBoxSection {
+       width: 100%;
+       display: grid;
+       justify-content: space-between;
+       grid-template-columns: 100%;
+   }
+}
