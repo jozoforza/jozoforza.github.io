@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="chcekboxes.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="slide">
+
+        <div id="game">
+            <a href=""></a><button class="btn-slide"><span class="arrow-left"></span></button></a>
+            <div class="navText">Game</div>
+        </div>
+        <h1>Galeria</h1>
+        <div id="test">
+            <div  class="navText">Test</div>
+            <a href=""><button class="btn-slide"><span class="arrow-right"></span></button></a>
+        </div>
+    </section>
+
+
+    <div class="checkBoxSection">
+        <!--<div class="stlpec1">--->
+
+            <div class="box">
+                <div class="boxText">Huby</div>
+                <input onclick="hubyFunction()" id="hubyBox" checked="checked" type="checkbox" id="chk" class="toggle" />
+            </div>
+
+            <div class="box">
+                <div class="boxText">Riasy</div>
+                <input onclick="riasyFunction()" id="riasyBox"checked="checked" type="checkbox" id="chk" class="toggle" />
+            </div>
+            <div class="box">
+                <div class="boxText">Machorasty</div>
+                <input checked="checked" type="checkbox" id="chk" class="toggle" />
+            </div>
+            <div class="box">
+                <div class="boxText">Papradorasty</div>
+                <input checked="checked" type="checkbox" id="chk" class="toggle" />
+            </div>
+            <!--</div>--->
+
+            <!--<div class="stlpec">--->
+                <div class="box">
+                    <div class="boxText">Machorasty</div>
+                    <input checked="checked" type="checkbox" id="chk" class="toggle" />
+                </div>
+                <div class="box">
+                    <div class="boxText">1-klične</div>
+                    <input onclick="monocotFunction()" id="monocotBox" checked="checked" type="checkbox" id="chk" class="toggle" />
+                </div>
+                <div class="box">
+                    <div class="boxText">2-klicne</div>
+                    <input onclick="dicotFunction()" id="dicotBox" checked="checked" type="checkbox" id="chk" class="toggle" />
+                </div>
+                <div class="box">
+                    <div class="boxText">Specialne</div>
+                    <input checked="checked" type="checkbox" id="chk" class="toggle" />
+                 <!--</div>--->
+            </div>
+        </div>    
+    
+
+    <div class="flexgaleria">
+    <div id="galeria" >
+       
+    </div>
+    </div>
+    <script src="checkbox.js"></script>
+    
+
+</body>
+</html>
