@@ -1,16 +1,16 @@
 //LINKY
 const huby=["huby\\images (1).jpg"]
 
-const riasy=["C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\riasy\\cervena.jpg",
-            "C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\riasy\\hneda.jpg",
-            "C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\riasy\\modra.jpg"]
+const riasy=["riasy\\cervena.jpg",
+            "riasy\\hneda.jpg",
+            "riasy\\modra.jpg"]
 
-const monocot=['C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\1-klicne\\Šafran bielokvetý.JPG',
-               'C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\1-klicne\\Hyacint východný.JPG']
+const monocot=['1-klicne\\Šafran bielokvetý.JPG',
+               '1-klicne\\Hyacint východný.JPG']
 
-const dicot=['C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\2-klicne\\Bocianik rozpukovitý.JPG',
-             'C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\2-klicne\\Deväťsil biely.JPG',
-             'C:\\Users\\smaci\\OneDrive\\Desktop\\program\\webpage_flowers\\2-klicne\\Fialka voňavá.JPG']
+const dicot=['2-klicne\\Bocianik rozpukovitý.JPG',
+             '2-klicne\\Deväťsil biely.JPG',
+             '2-klicne\\Fialka voňavá.JPG']
 
 //NAZVY
 const hubyNazvy=["cervenaHuba"]
