@@ -85,14 +85,17 @@ input[type="checkbox"].toggle {
 .boxText{
     font-family: 'Karla', sans-serif;
     font-weight: 700;
+    width: fit-content;
 }
 .checkBoxSection{
     width: 100%;
     display: grid;
+
+    
     justify-content: space-between;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
 }
-@media only screen and (max-width: 850px) {
+/*@media only screen and (max-width: 850px) {
     .checkBoxSection {
         width: 100%;
         display: grid;
