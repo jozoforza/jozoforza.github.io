@@ -23,8 +23,8 @@ input[type="checkbox"].toggle {
  
  input[type="checkbox"].toggle::before {
     content: "";
-    width: 4em;
-    height: 2em;
+    width: 63px;
+    height: 30px;
     background-color: hsl(0, 80%, 90%);
     border-radius: 5em;
  }
