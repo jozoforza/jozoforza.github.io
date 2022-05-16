@@ -1,4 +1,4 @@
-input[type="checkbox"].toggle {
+/*input[type="checkbox"].toggle {
     font-size: var(--toggle-font-size);
     appearance: none;
     display: inline-flex;
@@ -58,7 +58,7 @@ input[type="checkbox"].toggle {
     background-color: hsl(100, 70%, 80%);
  }
  
- /* disabled states */
+  disabled states 
  
  input[type="checkbox"].toggle:disabled,
  input[type="checkbox"].toggle:disabled + label {
@@ -73,6 +73,7 @@ input[type="checkbox"].toggle {
  input[type="checkbox"].toggle:disabled::after {
     background-color: #777;
  }
+ */
 .box{
     margin: 7px;
     padding: 7px;
