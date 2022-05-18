@@ -1,13 +1,35 @@
+//0
 const huby = {
   linky: ["huby\\images (1).jpg"],
   nazvy: ["cervenaHuba"]
 };
+//1
 const riasy = {
   linky: ["riasy\\cervena.jpg","riasy\\hneda.jpg","riasy\\modra.jpg"],
   nazvy: ["cervenaRiasa","hnedaRiasa","modraRiasa"]
 }
+//2
+const machy ={
+  linky: ["machy\\machzeleny.jpg"],
+  nazvy: ["machzeleny"]
+}
+//3
+const paprade ={
+  linky: [],
+  nazvy: []
+}
+//4
+const nahe ={
+  linky: [],
+  nazvy: []
+}
+//7
+const specialne ={
+  linky: [],
+  nazvy: []
+}
 
-objekty=[huby, riasy]
+objekty=[huby, riasy, machy, paprade, nahe];
 
 
 //LINKY
@@ -39,6 +61,16 @@ var checkboxDicot = document.getElementById("dicotBox");
 const galeria= document.getElementById("galeria");
 
 //VYPIS OBRAZKOV
+/*for(i=0;i<objekty.length;i++){
+    for(i=0;i<objekty[i].linky.length;i++){
+      galeria.innerHTML+=`
+      <div id="${objekty[i].nazvy[i]}" class="galeryBox" >
+          <img class="galeryImage" src="${objekty[i].linky[i]}" >   
+      </div>
+      `}
+    }*/
+
+
 for(i=0;i<huby.linky.length;i++){
 galeria.innerHTML+=`
 <div id="${huby.nazvy[i]}" class="galeryBox" >
@@ -52,6 +84,13 @@ galeria.innerHTML+=`
     <img class="galeryImage" src="${riasy.linky[i]}" >   
 </div>
 `}
+
+for(i=0;i<machy.linky.length;i++){
+  galeria.innerHTML+=`
+  <div id="${machy.nazvy[i]}" class="galeryBox" >
+      <img class="galeryImage" src="${machy.linky[i]}" >   
+  </div>
+  `}
 
 for(i=0;i<monocot.length;i++){
   galeria.innerHTML+=`
@@ -87,9 +126,9 @@ galeria.innerHTML+=`
       }
 
       function hubyF(identification){
-        alert(typeof identification);
+        //alert(typeof identification);
         let medziobjekt= parseInt(identification.slice(0, 1))
-        alert(medziobjekt+1)
+        //alert(medziobjekt+1)
         //alert(identification)
         if (document.getElementById(identification).checked == true){
           alert("identification")
@@ -105,23 +144,8 @@ galeria.innerHTML+=`
 
 
       }
-      function riasyFunction() {
-        
-        // Get the checkbox
-        // Get the output text
-        // If the checkbox is checked, display the output text
-        if (checkBoxRiasy.checked == true){
-          //galeria.style.display = "grid";
-          for(i=0;i<riasy.length;i++){
-              document.getElementById(riasyNazvy[i]).style.display = "block";
-          }
-        } else {
-          //galeria.style.display = "none";
-          for(i=0;i<riasy.length;i++){
-            document.getElementById(riasyNazvy[i]).style.display = "none";
-        }
-        }
-      }
+      
+      
 
       function hubyFunction() {
         // Get the checkbox
