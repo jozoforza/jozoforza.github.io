@@ -2,16 +2,20 @@ const huby = {
   linky: ["huby\\images (1).jpg"],
   nazvy: ["cervenaHuba"]
 };
+const riasy = {
+  linky: ["riasy\\cervena.jpg","riasy\\hneda.jpg","riasy\\modra.jpg"],
+  nazvy: ["cervenaRiasa","hnedaRiasa","modraRiasa"]
+}
 
-objekty=[huby]
+objekty=[huby, riasy]
 
 
 //LINKY
 //const huby=["huby\\images (1).jpg"]
 
-const riasy=["riasy\\cervena.jpg",
+/*const riasy=["riasy\\cervena.jpg",
             "riasy\\hneda.jpg",
-            "riasy\\modra.jpg"]
+            "riasy\\modra.jpg"]*/
 
 const monocot=['1-klicne\\Šafran bielokvetý.JPG',
                '1-klicne\\Hyacint východný.JPG']
@@ -28,7 +32,7 @@ const dicotNazvy=['Bocianik rozpukovitý','Deväťsil biely','Fialka voňavá']
 
 //CHECKBOXY
 //var checkBoxHuby = document.getElementById("hubyBox");
-var checkBoxRiasy = document.getElementById("riasyBox");
+//var checkBoxRiasy = document.getElementById("riasyBox");
 var checkboxMonocot = document.getElementById("monocotBox");
 var checkboxDicot = document.getElementById("dicotBox");
 
@@ -42,10 +46,10 @@ galeria.innerHTML+=`
 </div>
 `}
 
-for(i=0;i<riasy.length;i++){
+for(i=0;i<riasy.linky.length;i++){
 galeria.innerHTML+=`
-<div id="${riasyNazvy[i]}" class="galeryBox" >
-    <img class="galeryImage" src="${riasy[i]}" >   
+<div id="${riasy.nazvy[i]}" class="galeryBox" >
+    <img class="galeryImage" src="${riasy.linky[i]}" >   
 </div>
 `}
 
