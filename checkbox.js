@@ -1,5 +1,13 @@
+const huby = {
+  linky: ["huby\\images (1).jpg"],
+  nazvy: ["cervenaHuba"]
+};
+
+objekty=[huby]
+
+
 //LINKY
-const huby=["huby\\images (1).jpg"]
+//const huby=["huby\\images (1).jpg"]
 
 const riasy=["riasy\\cervena.jpg",
             "riasy\\hneda.jpg",
@@ -13,13 +21,13 @@ const dicot=['2-klicne\\Bocianik rozpukovitý.JPG',
              '2-klicne\\Fialka voňavá.JPG']
 
 //NAZVY
-const hubyNazvy=["cervenaHuba"]
+//const hubyNazvy=["cervenaHuba"]
 const riasyNazvy=["cervenaRiasa","hnedaRiasa","modraRiasa"]
 const monocotNazvy=['Šafran bielokvetý','Hyacint východný']
 const dicotNazvy=['Bocianik rozpukovitý','Deväťsil biely','Fialka voňavá']
 
 //CHECKBOXY
-var checkBoxHuby = document.getElementById("hubyBox");
+//var checkBoxHuby = document.getElementById("hubyBox");
 var checkBoxRiasy = document.getElementById("riasyBox");
 var checkboxMonocot = document.getElementById("monocotBox");
 var checkboxDicot = document.getElementById("dicotBox");
@@ -27,10 +35,10 @@ var checkboxDicot = document.getElementById("dicotBox");
 const galeria= document.getElementById("galeria");
 
 //VYPIS OBRAZKOV
-for(i=0;i<huby.length;i++){
+for(i=0;i<huby.linky.length;i++){
 galeria.innerHTML+=`
-<div id="${hubyNazvy[i]}" class="galeryBox" >
-    <img class="galeryImage" src="${huby[i]}" >   
+<div id="${huby.nazvy[i]}" class="galeryBox" >
+    <img class="galeryImage" src="${huby.linky[i]}" >   
 </div>
 `}
 
@@ -57,23 +65,44 @@ galeria.innerHTML+=`
 
 //CHECKBOX FUNKCIE
     function hubyFunction() {
+      alert("pupek")
         // Get the checkbox
         // Get the output text
         // If the checkbox is checked, display the output text
-        if (checkBoxHuby.checked == true){
+        /*if (document.getElementById(idName).checked == true){
           //galeria.style.display = "grid";
-          for(i=0;i<huby.length;i++){
-              document.getElementById(hubyNazvy[i]).style.display = "block";
+          for(i=0;i<huby.linky.length;i++){
+              document.getElementById(huby.nazvy[i]).style.display = "block";
           }
         } else {
           //galeria.style.display = "none";
-          for(i=0;i<huby.length;i++){
-            document.getElementById(hubyNazvy[i]).style.display = "none";
+          for(i=0;i<huby.linky.length;i++){
+            document.getElementById(huby.nazvy[i]).style.display = "none";
         }
-        }
+        }*/
       }
 
+      function hubyF(identification){
+        alert(typeof identification);
+        let medziobjekt= parseInt(identification.slice(0, 1))
+        alert(medziobjekt+1)
+        //alert(identification)
+        if (document.getElementById(identification).checked == true){
+          alert("identification")
+          for(i=0;i<objekty[medziobjekt].linky.length;i++)
+          document.getElementById(objekty[medziobjekt].nazvy[i]).style.display = "block";
+        }
+        else{
+          alert("not checked")
+          for(i=0;i<objekty[medziobjekt].linky.length;i++)
+          document.getElementById(objekty[medziobjekt].nazvy[i]).style.display = "none";
+        }
+
+
+
+      }
       function riasyFunction() {
+        
         // Get the checkbox
         // Get the output text
         // If the checkbox is checked, display the output text

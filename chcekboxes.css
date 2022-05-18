@@ -10,7 +10,8 @@
  }
  
  .slider {
-   background-color: #ccc;
+   background-color: rgb(233, 74, 74);
+   content: "";
    bottom: 0;
    cursor: pointer;
    left: 0;
@@ -21,7 +22,7 @@
  }
  
  .slider:before {
-   background-color: #fff;
+   background-color: rgb(255, 250, 250);
    bottom: 4px;
    content: "";
    height: 26px;
@@ -37,6 +38,7 @@
  
  input:checked + .slider:before {
    transform: translateX(26px);
+   background-color: #e8ffe9;
  }
  
  .slider.round {
