@@ -54,83 +54,6 @@
 
 
 
-
-input[type="checkbox"].toggle {
-    font-size: var(--toggle-font-size);
-    appearance: none;
-    display: inline-flex;
-    position: relative;
-    align-items: center;
-    justify-content: space-around;
-    cursor: pointer;
- }
- 
- input[type="checkbox"].toggle + label {
-    font-size: var(--toggle-font-size);
-    vertical-align: bottom;
- }
- 
- input[type="checkbox"].toggle:not(:disabled):focus-visible {
-    outline: none;
- }
- 
- input[type="checkbox"].toggle:not(:disabled):focus-visible::before {
-    outline: 0.25rem solid hsl(0, 0%, 45%);
- }
- 
- input[type="checkbox"].toggle::before {
-    content: "";
-    width: 63px;
-    height: 30px;
-    background-color: hsl(0, 80%, 90%);
-    border-radius: 5em;
- }
- 
- input[type="checkbox"].toggle::after {
-    content: "\2715";
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.5em;
-    font-weight: 700;
-    width: 3.6em;
-    height: 3.6em;
-    left: 0.2em;
-    border-radius: 2em;
-    background-color: hsl(0, 80%, 60%);
-    color: hsl(0, 0%, 100%);
-    
-    transition: transform var(--anim), background-color var(--anim);
- }
- 
- input[type="checkbox"].toggle:checked::after {
-    content: "\2713";
-    transform: translateX(100%);
-    background-color: hsl(100, 70%, 60%);
-
- }
- 
- input[type="checkbox"].toggle:checked::before {
-    background-color: hsl(100, 70%, 80%);
- }
- 
-  /*disabled states*/ 
- 
- input[type="checkbox"].toggle:disabled,
- input[type="checkbox"].toggle:disabled + label {
-    color: #777;
-    cursor: not-allowed;
- }
- 
- input[type="checkbox"].toggle:disabled::before {
-    background-color: #ccc;
- }
- 
- input[type="checkbox"].toggle:disabled::after {
-    background-color: #777;
- }
- 
 .box{
     margin: 7px;
     padding: 7px;
@@ -158,7 +81,7 @@ input[type="checkbox"].toggle {
         width: 100%;
         display: grid;
         justify-content: space-between;
-        grid-template-columns: 100%;
+        grid-template-columns: 50% 50%;
     }
 }
 /*@media only screen and (max-width: 380px) {
