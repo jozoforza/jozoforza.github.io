@@ -1,5 +1,3 @@
 # bio-flowers
-projekt na burinologiu
+projekt na biologiu
 
-<h1> beeeeeeeeeeeeee </h1>
-<h2> aaaaaaaaaaaaaaaaa </h2>
