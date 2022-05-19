@@ -46,51 +46,15 @@ objekty=[huby, riasy, machy, paprade, nahe, monocot, dicot, specialne];
 const galeria= document.getElementById("galeria");
 
 //VYPIS OBRAZKOV
-/*for(i=0;i<8;i++){
-    let objekt=objekty[i]
-    for(a=0;a<objekt.linky.length;a++){
+for(i=0;i<objekty.length;i++){
+    for(a=0;a<objekty[i].linky.length;a++){
       galeria.innerHTML+=`
-      <div id="${objekt.nazvy[i]}" class="galeryBox" >
-          <img class="galeryImage" src="${objekt.linky[i]}" >   
+      <div id="${objekty[i].nazvy[a]}" class="galeryBox" >
+          <img class="galeryImage" src="${objekty[i].linky[a]}" >   
       </div>
       `}
-    }*/
+    }
 
-
-for(i=0;i<huby.linky.length;i++){
-galeria.innerHTML+=`
-<div id="${huby.nazvy[i]}" class="galeryBox" >
-    <img class="galeryImage" src="${huby.linky[i]}" >   
-</div>
-`}
-
-for(i=0;i<riasy.linky.length;i++){
-galeria.innerHTML+=`
-<div id="${riasy.nazvy[i]}" class="galeryBox" >
-    <img class="galeryImage" src="${riasy.linky[i]}" >   
-</div>
-`}
-
-for(i=0;i<machy.linky.length;i++){
-  galeria.innerHTML+=`
-  <div id="${machy.nazvy[i]}" class="galeryBox" >
-      <img class="galeryImage" src="${machy.linky[i]}" >   
-  </div>
-  `}
-
-for(i=0;i<monocot.linky.length;i++){
-  galeria.innerHTML+=`
-  <div id="${monocot.nazvy[i]}" class="galeryBox" >
-      <img class="galeryImage" src="${monocot.linky[i]}" >   
-  </div>
-  `}
-
-for(i=0;i<dicot.linky.length;i++){
-galeria.innerHTML+=`
-<div id="${dicot.nazvy[i]}" class="galeryBox" >
-    <img class="galeryImage" src="${dicot.linky[i]}" >   
-</div>
-`}
 
 
       function hubyF(identification){
