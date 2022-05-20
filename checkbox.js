@@ -50,7 +50,8 @@ for(i=0;i<objekty.length;i++){
     for(a=0;a<objekty[i].linky.length;a++){
       galeria.innerHTML+=`
       <div id="${objekty[i].nazvy[a]}" class="galeryBox" >
-          <img class="galeryImage" src="${objekty[i].linky[a]}" >   
+      <div class="textO">${objekty[i].nazvy[a]}</div>
+          <img class="galeryImage" src="${objekty[i].linky[a]}" >  
       </div>
       `}
     }

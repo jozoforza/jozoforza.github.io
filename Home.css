@@ -113,7 +113,7 @@ section.slide {
     
         display: grid;
         width: 80%;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 100%;
         
           grid-gap: 2rem;
           justify-content: center;
@@ -124,10 +124,7 @@ section.slide {
 
 
 .galerBox{
-    display:fit-content;
-    
-
-    
+   
 }
 
 .galeryImage{
@@ -136,5 +133,12 @@ section.slide {
     aspect-ratio: 1 / 1;
     object-fit:cover;  
     
+}
+.textO{
+    position: absolute;
+    color: aliceblue;
+    font-size: 25px;
+    /* background: blue; */
+    /* opacity: 50%; */
 }
 
