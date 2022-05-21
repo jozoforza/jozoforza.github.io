@@ -43,8 +43,9 @@ section.slide {
     top: 0;
     background-color:#000;
     display:flex;
-    justify-content: center;
-    justify-content:center;
+    align-items: center;
+    justify-content: space-between;
+    
   }
   
   button.btn-slide {
@@ -108,7 +109,7 @@ section.slide {
       align-content: start;
       
 } 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width:400px) and (max-width:900px) {
     #galeria{
     
         display: grid;
@@ -122,6 +123,19 @@ section.slide {
     } 
 }
 
+@media only screen and (max-width:400px){
+    #galeria{
+    
+        display: grid;
+        width: 80%;
+        grid-template-columns: 100%;
+        
+          grid-gap: 2rem;
+          justify-content: center;
+          align-content: start;
+     
+    } 
+}
 
 .galerBox{
    
@@ -137,7 +151,9 @@ section.slide {
 .textO{
     position: absolute;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* background: blue; */
     /* opacity: 50%; */
 }

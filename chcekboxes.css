@@ -76,15 +76,15 @@
     justify-content: space-between;
     grid-template-columns: 25% 25% 25% 25%;
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (min-width:380px) and (max-width:850px) {
     .checkBoxSection {
         width: 100%;
         display: grid;
         justify-content: space-between;
-        grid-template-columns: 100%;
+        grid-template-columns: 50% 50%;
     }
 }
-/*@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 380px) {
    .checkBoxSection {
        width: 100%;
        display: grid;
