@@ -149,8 +149,12 @@ section.slide {
     
 }
 .textO{
+    background-color: black;
+    border-bottom-right-radius: 1rem;
+
+    padding: 0.6rem;
     position: absolute;
-    color: aliceblue;
+    color: rgb(177, 177, 177);
     font-size: 15px;
     font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
