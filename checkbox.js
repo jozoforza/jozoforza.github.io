@@ -1,16 +1,16 @@
 //0
 const huby = {
-  linky: ["huby\\images (1).jpg"],
+  linky: ["huby/carvena_huba.jpg"],
   nazvy: ["cervenaHuba"]
 };
 //1
 const riasy = {
-  linky: ["riasy\\cervena.jpg","riasy\\hneda.jpg","riasy\\modra.jpg"],
+  linky: ["riasy/cervena.jpg","riasy/hneda.jpg","riasy/modra.jpg"],
   nazvy: ["cervenaRiasa","hnedaRiasa","modraRiasa"]
 }
 //2
 const machy ={
-  linky: ["machy\\machzeleny.jpg"],
+  linky: ["machy/machzeleny.jpg"],
   nazvy: ["machzeleny"]
 }
 //3
@@ -30,15 +30,15 @@ const specialne ={
 }
 //5
 const monocot={
-  linky: ['1-klicne\\Šafran bielokvetý.JPG',
-          '1-klicne\\Hyacint východný.JPG'],
+  linky: ['1-klicne/safran_bielokvety.jpg',
+          '1-klicne/hyciant_vychodny.jpg'],
   nazvy: ['Šafran bielokvetý','Hyacint východný']
 }
 //6
 const dicot={
-  linky: ['2-klicne\\Bocianik rozpukovitý.JPG',
-          '2-klicne\\Deväťsil biely.JPG',
-          '2-klicne\\Fialka voňavá.JPG'],
+  linky: ['2-klicne/bocianik_rozpukovity.jpg',
+          '2-klicne/devatsil_biely.jpg',
+          '2-klicne/filaka_vonava.jpg'],
   nazvy: ['Bocianik rozpukovitý','Deväťsil biely','Fialka voňavá']
 }
 
@@ -49,9 +49,9 @@ const galeria= document.getElementById("galeria");
 for(i=0;i<objekty.length;i++){
     for(a=0;a<objekty[i].linky.length;a++){
       galeria.innerHTML+=`
-      <div id="${objekty[i].nazvy[a]}" class="galeryBox" >
+      <div id="${objekty[i].nazvy[a]}" class="galeryBox" style="background-image: url(${objekty[i].linky[a]});">
       <div class="textO">${objekty[i].nazvy[a]}</div>
-          <img class="galeryImage" src="${objekty[i].linky[a]}" >  
+          
       </div>
       `}
     }
@@ -74,7 +74,7 @@ for(i=0;i<objekty.length;i++){
           document.getElementById(objekty[medziobjekt].nazvy[i]).style.display = "none";
         }
       }
-      
+      //<img class="galeryImage" src="${objekty[i].linky[a]}" >  
       
 
 
