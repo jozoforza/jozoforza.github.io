@@ -95,7 +95,7 @@ section.slide {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 #galeria{
@@ -116,7 +116,7 @@ section.slide {
         width: 80%;
         grid-template-columns: 50% 50%;
         
-          grid-gap: 2rem;
+          grid-gap: 1rem;
           justify-content: center;
           align-content: start;
           
@@ -130,7 +130,7 @@ section.slide {
         width: 80%;
         grid-template-columns: 100%;
         
-          grid-gap: 2rem;
+          grid-gap: 1rem;
           justify-content: center;
           align-content: start;
      
@@ -138,11 +138,24 @@ section.slide {
 }
 
 .galeryBox{
+    
+    
     min-height: 90%;
     aspect-ratio: 1/1;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
+.okraj{
+    padding: 15px;
+    -webkit-transition: all 500ms ease;
+}
+
+.okraj:hover{
+    padding: 0px;
+    
+}
+    
 
 /*.galeryImage{
     width: 100%;
@@ -152,6 +165,7 @@ section.slide {
     
 }*/
 .imageText{
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(233, 233, 233,.6);
     display: flex;
@@ -159,8 +173,11 @@ section.slide {
     aspect-ratio: 1/1;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 2rem;
     opacity: 100%;
     opacity: 0%;
     -webkit-transition: all 500ms ease;
+}
+.imageText:hover{
+    font-size: 2.23rem;
 }

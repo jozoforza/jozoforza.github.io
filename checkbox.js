@@ -59,10 +59,12 @@ cyklus=true;
 for(i=0;i<objekty.length;i++){
     for(a=0;a<objekty[i].linky.length;a++){
       galeria.innerHTML+=`
+      <div class="okraj">
       <div id="${objekty[i].nazvy[a]}" class="galeryBox" style="background-image: url(${objekty[i].linky[a]});">
         <div class="imageText" id="${i+"text"+a}" onclick="textFunction(this.id)">
           <p class="unselectable" style="text-align: center; padding: 5px;">${objekty[i].nazvy[a]}</p>
         </div>
+      </div>
       </div>
       `}
     }
@@ -94,11 +96,13 @@ for(i=0;i<objekty.length;i++){
         
         if(stav){
           document.getElementById(identText).style.opacity="0%";
+          //document.getElementById(alert(objektTex.nazvy[parseInt(identText.slice(identText.length-1, identText.length))]).style.margin="1.5rem";
           objektText.stavy[parseInt(identText.slice(identText.length-1, identText.length))]=false;
           }
           else{
           document.getElementById(identText).style.opacity="100%";
           objektText.stavy[parseInt(identText.slice(identText.length-1, identText.length))]=true;
+          //document.getElementById(objektTex.nazvy[parseInt(identText.slice(identText.length-1, identText.length))]).style.margin="0rem";
           }
       }
       
