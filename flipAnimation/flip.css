@@ -22,6 +22,22 @@
     aspect-ratio: 1/1;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-transition: all 500ms ease;
+}
+#zelenyText{
+    background-color: rgb(233, 233, 233,.8);
+    display: flex;
+    object-fit:cover; 
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    opacity: 0%;
+    
+    
+
+
+    -webkit-transition: all 500ms ease;
 }
 
 

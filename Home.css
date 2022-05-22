@@ -138,7 +138,7 @@ section.slide {
 }
 
 .galeryBox{
-    min-height: 100%;
+    min-height: 90%;
     aspect-ratio: 1/1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,17 +151,16 @@ section.slide {
     object-fit:cover;  
     
 }*/
-.textO{
-    background-color: black;
-    border-bottom-right-radius: 1rem;
-
-    padding: 0.6rem;
-    
-    color: rgb(177, 177, 177);
-    font-size: 15px;
-    font-weight: 800;
+.imageText{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* background: blue; */
-    /* opacity: 50%; */
+    background-color: rgb(233, 233, 233,.6);
+    display: flex;
+    object-fit:cover; 
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    opacity: 100%;
+    opacity: 0%;
+    -webkit-transition: all 500ms ease;
 }
-
