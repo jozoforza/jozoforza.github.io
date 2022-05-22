@@ -61,7 +61,7 @@ for(i=0;i<objekty.length;i++){
       galeria.innerHTML+=`
       <div id="${objekty[i].nazvy[a]}" class="galeryBox" style="background-image: url(${objekty[i].linky[a]});">
         <div class="imageText" id="${i+"text"+a}" onclick="textFunction(this.id)">
-          <p style="text-align: center; padding: 5px;">${objekty[i].nazvy[a]}</p>
+          <p class="unselectable" style="text-align: center; padding: 5px;">${objekty[i].nazvy[a]}</p>
         </div>
       </div>
       `}
