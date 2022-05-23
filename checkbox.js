@@ -3,44 +3,67 @@
 const huby = {
   linky: ["huby/carvena_huba.jpg"],
   nazvy: ["cervena Huba"],
-  stavy: [false]
+  stavy: [false],
+  dates: ["7.4."],
+  places: ["Sandberg"],
+  type:["huby"]
+
 };
 //1
 const riasy = {
   linky: ["riasy/cervena.jpg","riasy/hneda.jpg","riasy/modra.jpg"],
   nazvy: ["cervena Riasa","hneda Riasa","modra Riasa"],
-  stavy: [false,false,false]
+  stavy: [false,false,false],
+  dates: ["8.4.","20.4.","13.4."],
+  places: ["Sag","SAg","sag"],
+  type:["riasovite","riasovite","riasovite"]
 }
 //2
 const machy ={
   linky: ["machy/machzeleny.jpg"],
   nazvy: ["mach zeleny"],
-  stavy: [false]
+  stavy: [false],
+  dates: ["7.2."],
+  places: ["machndberg"],
+  type:["mach"]
 }
 //3
 const paprade ={
   linky: [],
   nazvy: [],
-  stavy: []
+  stavy: [],
+  dates: [],
+  places: [],
+  type:[]
 }
 //4
 const nahe ={
   linky: [],
   nazvy: [],
-  stavy: []
+  stavy: [],
+  dates: [],
+  places: [],
+  type:[]
 }
 //7
 const specialne ={
   linky: [],
   nazvy: [],
-  stavy: []
+  stavy: [],
+  dates: [],
+  places: [],
+  type:[]
 }
 //5
 const monocot={
   linky: ['1-klicne/safran_bielokvety.jpg',
           '1-klicne/hyciant_vychodny.jpg'],
   nazvy: ['Šafran bielokvetý','Hyacint východný'],
-  stavy: [false,false]
+  stavy: [false,false],
+  dates: ["17.4.","29.3"],
+  places: ["Prosiecka dolina","Sandberg"],
+  type:["?","?"]
+
 }
 //6
 const dicot={
@@ -48,7 +71,11 @@ const dicot={
           '2-klicne/devatsil_biely.jpg',
           '2-klicne/filaka_vonava.jpg'],
   nazvy: ['Bocianik rozpukovitý','Deväťsil biely','Fialka voňavá'],
-  stavy: [false,false,false]
+  stavy: [false,false,false],
+  dates: ["29.3","17.4.","29.3"],
+  places: ["Sandberg","Prosiecka dolina","Sandberg"],
+  type:["?","?"]
+
 }
 
 objekty=[huby, riasy, machy, paprade, nahe, monocot, dicot, specialne];
@@ -62,13 +89,17 @@ for(i=0;i<objekty.length;i++){
       <div class="okraj" id="${objekty[i].nazvy[a]+"_okraj"}">
       <div id="${objekty[i].nazvy[a]}" class="galeryBox" style="background-image: url(${objekty[i].linky[a]});">
         <div class="imageText" id="${i+"text"+a}" onclick="textFunction(this.id)">
-          <p class="unselectable" style="text-align: center; padding: 5px;">${objekty[i].nazvy[a]}</p>
+          <p class="nazov_image_textu" class="unselectable" style="text-align: center; padding: 0px;margin: 0px;">${objekty[i].nazvy[a]}</p>
+          <p class="druh_image_textu" class="unselectable" style="text-align: center; padding: 0px;margin: 0px;">${objekty[i].type[a]}</p>
+          <div style="margin:20px">
+            <p class="unselectable" style="text-align: left;margin: 0px; ">miesto: ${objekty[i].places[a]}</p>
+            <p class="unselectable" style="text-align: left;margin: 0px; ">dátum: ${objekty[i].dates[a]}</p>
+          </div>
         </div>
       </div>
       </div>
       `}
     }
-
 
 
       function hubyF(identification){

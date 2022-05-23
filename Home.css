@@ -171,13 +171,23 @@ section.slide {
     display: flex;
     object-fit:cover; 
     aspect-ratio: 1/1;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    
+    font-size: 1.3rem;
     opacity: 100%;
     opacity: 0%;
     -webkit-transition: all 500ms ease;
 }
 .imageText:hover{
-    font-size: 2.23rem;
+    
+}
+.nazov_image_textu{
+    font-size: 2.3rem; 
+}
+.druh_image_textu{
+    font-size: 1rem;
+    font-style: italic;
+    
 }
