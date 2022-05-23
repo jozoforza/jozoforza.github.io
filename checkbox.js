@@ -59,7 +59,7 @@ cyklus=true;
 for(i=0;i<objekty.length;i++){
     for(a=0;a<objekty[i].linky.length;a++){
       galeria.innerHTML+=`
-      <div class="okraj" id="${objekty[i]+"okraj"}">
+      <div class="okraj" id="${objekty[i].nazvy[a]+"_okraj"}">
       <div id="${objekty[i].nazvy[a]}" class="galeryBox" style="background-image: url(${objekty[i].linky[a]});">
         <div class="imageText" id="${i+"text"+a}" onclick="textFunction(this.id)">
           <p class="unselectable" style="text-align: center; padding: 5px;">${objekty[i].nazvy[a]}</p>
@@ -80,13 +80,13 @@ for(i=0;i<objekty.length;i++){
           //alert("identification")
           for(i=0;i<objekty[medziobjekt].linky.length;i++)
           //document.getElementById(objekty[medziobjekt].nazvy[i]).style.display = "block";
-          document.getElementById(objekty[medziobjekt]+"okraj").style.display = "block";
+          document.getElementById(objekty[medziobjekt].nazvy[i]+"_okraj").style.display = "block";
         }
         else{
           //alert("not checked")
           for(i=0;i<objekty[medziobjekt].linky.length;i++)
           //document.getElementById(objekty[medziobjekt].nazvy[i]).style.display = "none";
-          document.getElementById(objekty[medziobjekt]+"okraj").style.display = "none";
+          document.getElementById(objekty[medziobjekt].nazvy[i]+"_okraj").style.display = "none";
         }
       }
       //<img class="galeryImage" src="${objekty[i].linky[a]}" >  
