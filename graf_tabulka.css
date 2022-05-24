@@ -1,11 +1,11 @@
-.grafTable{
+#grafTable{
     display: flex;
     
     flex-direction: column;
 }
 .cellTable{
     background-color: black;
-    margin: 10px;
+    margin: 7px;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -14,7 +14,8 @@
 .stlpecGrid{
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% auto;
+    margin-right: 8px;
 }
 
 
@@ -22,16 +23,17 @@
 
 
 .grafText{
-    width: 300px;
+    width: 200px;
     display: flex;
     color: rgba(255, 255, 255, 0.7);
+    font-family: 'Karla', sans-serif;
     
     
     justify-content: center;
     align-content: center;
 }
 .stlpec{
-    height: 30px;
+    height: 25px;
     margin: 2px;
 }
 #hubyGraf{
