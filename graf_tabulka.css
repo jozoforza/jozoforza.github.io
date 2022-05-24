@@ -1,0 +1,44 @@
+.grafTable{
+    display: flex;
+    
+    flex-direction: column;
+}
+.cellTable{
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+.stlpecGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+
+
+.grafText{
+    width: 300px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    
+    
+    justify-content: center;
+    align-content: center;
+}
+.stlpec{
+    height: 30px;
+    margin: 2px;
+}
+#hubyGraf{
+    
+    background-color: blueviolet;
+}
+#machyGraf{
+    
+    background-color: blue;
+}
