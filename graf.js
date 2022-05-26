@@ -50,7 +50,7 @@ for(i=0;i<stlpce.length;i++){
     graf.innerHTML+=`
         <div class="cellTable">
 
-        <div class="grafText"> <p>${stlpce[i].name}(${stlpce[i].pocet})</p> </div>
+        <div class="grafText"> <p>${stlpce[i].name}</p> </div>
 
         <div id="${stlpce[i].name}" style="width: 100%;
             display: grid;
@@ -68,7 +68,7 @@ for(i=0;i<stlpce.length;i++){
     let g=Math.round((stlpce[i].pocet/7)*100)
 
 }*/
-stepTime=20;
+stepTime=10;
 let krok=0;
 dlzka = 0;
 
