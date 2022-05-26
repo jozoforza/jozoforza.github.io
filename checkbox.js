@@ -1,7 +1,7 @@
 
 //0
 const huby = {
-  linky: ["huby/carvena_huba.jpg"],
+  linky: ["huby/cervenahuba.jpg.jpg"],
   nazvy: ["cervena Huba"],
   stavy: [false],
   dates: ["7.4."],
@@ -12,7 +12,7 @@ const huby = {
 //1
 const riasy = {
   linky: ["riasy/cervena.jpg","riasy/hneda.jpg","riasy/modra.jpg"],
-  nazvy: ["cervena Riasa","hneda Riasa","modra Riasa"],
+  nazvy: ["cervena Riasa","hneda Riasa","zelena Riasa"],
   stavy: [false,false,false],
   dates: ["8.4.","20.4.","13.4."],
   places: ["Sag","SAg","sag"],
