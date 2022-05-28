@@ -1,42 +1,42 @@
 
 const hubygraf={
-    pocet: 3,
+    pocet: 1,
     name: "huby/lyšajníky",
     graf: 0,
 }
 const riasygraf={
-    pocet: 4,
+    pocet: 3,
     name: "riasy",
     graf: 0,
     
 }
 const machograf={
-    pocet: 2,
+    pocet: 1,
     name: "machorasty",
     graf: 0,
 }
 const papragraf={
-    pocet: 1,
+    pocet: 0,
     name: "papraďorasty",
     graf: 0,
 }
 const nahograf={
-    pocet: 5,
+    pocet: 1,
     name: "nahosemenné",
     graf: 0,
 }
 const monograf={
-    pocet: 6,
+    pocet: 2,
     name: "jednoklíčnolisté",
     graf: 0,
 }
 const digraf={
-    pocet: 7,
+    pocet: 3,
     name: "dvojklíčnolisté",
     graf: 0,
 }
 const specialgraf={
-    pocet: 3,
+    pocet: 0,
     name: "špecialne",
     graf: 0,
 }
@@ -50,7 +50,7 @@ for(i=0;i<stlpce.length;i++){
     graf.innerHTML+=`
         <div class="cellTable">
 
-        <div class="grafText"> <p>${stlpce[i].name}</p> </div>
+        <div class="grafText"> <p>${stlpce[i].name}(${stlpce[i].pocet})</p> </div>
 
         <div id="${stlpce[i].name}" style="width: 100%;
             display: grid;

@@ -1,7 +1,7 @@
 
 //0
 const huby = {
-  linky: ["huby/cervenahuba.jpg.jpg"],
+  linky: ["huby/cervenahuba.jpg"],
   nazvy: ["cervena Huba"],
   stavy: [false],
   dates: ["7.4."],
@@ -38,12 +38,12 @@ const paprade ={
 }
 //4
 const nahe ={
-  linky: [],
-  nazvy: [],
-  stavy: [],
-  dates: [],
-  places: [],
-  type:[]
+  linky: ["nahosemenne/smrekovecopadavy.jpg"],
+  nazvy: ["Smrekovec opadavý"],
+  stavy: [false],
+  dates: ["27.5."],
+  places: ["Vysoké Tatry"],
+  type:["Borovicorasty"]
 }
 //7
 const specialne ={
