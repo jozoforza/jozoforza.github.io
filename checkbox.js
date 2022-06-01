@@ -58,23 +58,33 @@ const specialne ={
 const monocot={
   linky: ['1-klicne/safran_bielokvety.jpg',
           '1-klicne/hyciant_vychodny.jpg'],
-  nazvy: ['Šafran bielokvetý','Hyacint východný'],
+  nazvy: ['Šafran bielokvetý',
+  'Hyacint východný'],
   stavy: [false,false],
   dates: ["17.4.","29.3"],
   places: ["Prosiecka dolina","Sandberg"],
-  type:["?","?"]
+  type:["Šafran bielokvetý","Hyacint východný"]
 
 }
 //6
 const dicot={
   linky: ['2-klicne/bocianik_rozpukovity.jpg',
           '2-klicne/devatsil_biely.jpg',
-          '2-klicne/filaka_vonava.jpg'],
-  nazvy: ['Bocianik rozpukovitý','Deväťsil biely','Fialka voňavá'],
-  stavy: [false,false,false],
-  dates: ["29.3","17.4.","29.3"],
-  places: ["Sandberg","Prosiecka dolina","Sandberg"],
-  type:["?","?"]
+          '2-klicne/filaka_vonava.jpg',
+        '2-klicne/hlavacikjarny.jpg',
+        '2-klicne/hluchavkaobjimava.jpg',
+      '2-klicne/hluchavkapurpurova.jpg',
+    '2-klicne/kapsickapastierska.jpg',
+  '2-klicne/poniklecvelkokvety.jpg',
+'2-klicne/kosatecnizky.jpg',
+'2-klicne/kosatecibersky.jpg'],
+
+
+  nazvy: ['Bocianik rozpukovitý','Deväťsil biely','Fialka voňavá','hlavacik jarny','Hluchavka objímavá','Hluchavka purpurová','Kapsička pastierska','Poniklec veľkokvetý','Kosatec nízky','Kosatec iberský'],
+  stavy: [false,false,false,false,false,false,false,false,false,false],
+  dates: ["29.3","17.4.","29.3","29.3","17.4.","17.4.","17.4.","17.4.","17.4.","17.4."],
+  places: ["Sandberg","Prosiecka dolina","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg"],
+  type:["pakostovité","astrovité","fialkovité","iskerníkovité",'hluchavkovité','hluchavkovité','kapustovité','iskerníkovité','kosatcovité','kosatcovité']
 
 }
 
