@@ -38,12 +38,12 @@ const paprade ={
 }
 //4
 const nahe ={
-  linky: ["nahosemenne/smrekovecopadavy.jpg",'nahosemenne/smrek.jpg','nahosemenne/borovica.jpg'],
-  nazvy: ["Smrekovec opadavý",'Smrek obyčajný','Borovica lesná'],
-  stavy: [false,false,false],
-  dates: ["27.5.",'27.5','30.5.'],
-  places: ["Vysoké Tatry","Vysoké Tatry",'Železná studnička'],
-  type:["Borovicorasty","Borovicorasty","Borovicorasty"]
+  linky: ["nahosemenne/smrekovecopadavy.jpg",'nahosemenne/smrek.jpg','nahosemenne/borovica.jpg','nahosemenne/cyprusteklawsonov.jpg','nahosemenne/borievkacinska.jpg'],
+  nazvy: ["Smrekovec opadavý",'Smrek obyčajný','Borovica lesná','Cypruštek Lawsonov','Borievka čínska'],
+  stavy: [false,false,false,false,false],
+  dates: ["27.5.",'27.5','30.5.','6.3','6.3'],
+  places: ["Vysoké Tatry","Vysoké Tatry",'Železná studnička','Karlova Ves','Karlova Ves'],
+  type:["Borovicorasty","Borovicorasty","Borovicorasty",'cyprusotvaré','cyprusotvaré']
 }
 //7
 const specialne ={
