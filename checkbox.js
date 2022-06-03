@@ -20,30 +20,30 @@ const riasy = {
 }
 //2
 const machy ={
-  linky: ["machy/machzeleny.jpg"],
-  nazvy: ["mach zeleny"],
+  linky: ["machy/lomikamenmachovity.jpg"],
+  nazvy: ["Lomikameň machovitý"],
   stavy: [false],
-  dates: ["7.2."],
-  places: ["machndberg"],
-  type:["mach"]
+  dates: ["6.3"],
+  places: ["Karlova Ves"],
+  type:["machorasty"]
 }
 //3
 const paprade ={
-  linky: [],
-  nazvy: [],
-  stavy: [],
-  dates: [],
-  places: [],
-  type:[]
+  linky: ['papradorasty/papradsamcia.jpg'],
+  nazvy: ['Papraď samčia'],
+  stavy: [false],
+  dates: ['30.5.'],
+  places: ['Železná studnička'],
+  type:['papraďorasty']
 }
 //4
 const nahe ={
-  linky: ["nahosemenne/smrekovecopadavy.jpg"],
-  nazvy: ["Smrekovec opadavý"],
-  stavy: [false],
-  dates: ["27.5."],
-  places: ["Vysoké Tatry"],
-  type:["Borovicorasty"]
+  linky: ["nahosemenne/smrekovecopadavy.jpg",'nahosemenne/smrek.jpg','nahosemenne/borovica.jpg'],
+  nazvy: ["Smrekovec opadavý",'Smrek obyčajný','Borovica lesná'],
+  stavy: [false,false,false],
+  dates: ["27.5.",'27.5','30.5.'],
+  places: ["Vysoké Tatry","Vysoké Tatry",'Železná studnička'],
+  type:["Borovicorasty","Borovicorasty","Borovicorasty"]
 }
 //7
 const specialne ={
@@ -56,14 +56,16 @@ const specialne ={
 }
 //5
 const monocot={
-  linky: ['1-klicne/safran_bielokvety.jpg',
-          '1-klicne/hyciant_vychodny.jpg'],
-  nazvy: ['Šafran bielokvetý',
-  'Hyacint východný'],
-  stavy: [false,false],
-  dates: ["17.4.","29.3"],
-  places: ["Prosiecka dolina","Sandberg"],
-  type:["Šafran bielokvetý","Hyacint východný"]
+  linky: ['1-klicne/modricanebadana.jpg',
+          '1-klicne/hyciant_vychodny.jpg',
+        '1-klicne/ovsikobycajny.jpg',
+      '1-klicne/jacmenmysi.jpg'],
+  nazvy: ['Modrica nebadaná',
+  'Hyacint východný','Ovsík obyčajný','Jačmeň myší'],
+  stavy: [false,false,false,false],
+  dates: ["29.3","29.3",'6.3.','6.3.'],
+  places: ["Sandberg","Sandberg", 'Karlova Ves','Karlova Ves'],
+  type:["asparágovité","asparágovité",'Lipnicovité','Lipnicovité']
 
 }
 //6
