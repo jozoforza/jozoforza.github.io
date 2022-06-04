@@ -23,7 +23,7 @@ const machy ={
   linky: ["machy/lomikamenmachovity.jpg"],
   nazvy: ["Lomikameň machovitý"],
   stavy: [false],
-  dates: ["6.3"],
+  dates: ["4.6."],
   places: ["Karlova Ves"],
   type:["machorasty"]
 }
@@ -41,7 +41,7 @@ const nahe ={
   linky: ["nahosemenne/smrekovecopadavy.jpg",'nahosemenne/smrek.jpg','nahosemenne/borovica.jpg','nahosemenne/cyprusteklawsonov.jpg','nahosemenne/borievkacinska.jpg'],
   nazvy: ["Smrekovec opadavý",'Smrek obyčajný','Borovica lesná','Cypruštek Lawsonov','Borievka čínska'],
   stavy: [false,false,false,false,false],
-  dates: ["27.5.",'27.5','30.5.','6.3','6.3'],
+  dates: ["27.5.",'27.5','30.5.','3.6.','3.6.'],
   places: ["Vysoké Tatry","Vysoké Tatry",'Železná studnička','Karlova Ves','Karlova Ves'],
   type:["Borovicorasty","Borovicorasty","Borovicorasty",'cyprusotvaré','cyprusotvaré']
 }
@@ -60,13 +60,18 @@ const monocot={
           '1-klicne/hyciant_vychodny.jpg',
         '1-klicne/ovsikobycajny.jpg',
       '1-klicne/jacmenmysi.jpg',
-      '1-klicne/snezienka.jpg'],
+      '1-klicne/snezienka.jpg',
+      '1-klicne/kosatecnizky.jpg',
+      '1-klicne/kosatecibersky.jpg',
+      '1-klicne/safranbielokvety.jpg',
+      '1-klicne/safrandvojkvety.jpg'
+    ],
   nazvy: ['Modrica nebadaná',
-  'Hyacint východný','Ovsík obyčajný','Jačmeň myší','Snežienka jarná'],
-  stavy: [false,false,false,false,false],
-  dates: ["29.3","29.3",'6.3.','6.3.','7.3'],
-  places: ["Sandberg","Sandberg", 'Karlova Ves','Karlova Ves','Malé Karpaty'],
-  type:["asparágovité","asparágovité",'Lipnicovité','Lipnicovité','amarylkovité']
+  'Hyacint východný','Ovsík obyčajný','Jačmeň myší','Snežienka jarná','Kosatec nízky','Kosatec iberský','Šafran bielokvetý','Šafran dvojkvetý'],
+  stavy: [false,false,false,false,false,false,false,false,false],
+  dates: ["29.3","29.3",'3.6.','3.6.','7.3',"17.4.","17.4.",'7.3.','4.6.'],
+  places: ["Sandberg","Sandberg", 'Karlova Ves','Karlova Ves','Malé Karpaty',"Sandberg","Sandberg","Prosiecka dolina",'Karlova Ves'],
+  type:["asparágovité","asparágovité",'Lipnicovité','Lipnicovité','amarylkovité','kosatcovité','kosatcovité','kosatcovité','kosatcovité']
 
 }
 //6
@@ -78,16 +83,14 @@ const dicot={
         '2-klicne/hluchavkaobjimava.jpg',
       '2-klicne/hluchavkapurpurova.jpg',
     '2-klicne/kapsickapastierska.jpg',
-  '2-klicne/poniklecvelkokvety.jpg',
-'2-klicne/kosatecnizky.jpg',
-'2-klicne/kosatecibersky.jpg'],
+  '2-klicne/poniklecvelkokvety.jpg'],
 
 
-  nazvy: ['Bocianik rozpukovitý','Deväťsil biely','Fialka voňavá','hlavacik jarny','Hluchavka objímavá','Hluchavka purpurová','Kapsička pastierska','Poniklec veľkokvetý','Kosatec nízky','Kosatec iberský'],
-  stavy: [false,false,false,false,false,false,false,false,false,false],
+  nazvy: ['Bocianik rozpukovitý','Deväťsil biely','Fialka voňavá','Hlaváčik jarný','Hluchavka objímavá','Hluchavka purpurová','Kapsička pastierska','Poniklec veľkokvetý'],
+  stavy: [false,false,false,false,false,false,false,false,],
   dates: ["29.3","17.4.","29.3","29.3","17.4.","17.4.","17.4.","17.4.","17.4.","17.4."],
-  places: ["Sandberg","Prosiecka dolina","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg"],
-  type:["pakostovité","astrovité","fialkovité","iskerníkovité",'hluchavkovité','hluchavkovité','kapustovité','iskerníkovité','kosatcovité','kosatcovité']
+  places: ["Sandberg","Prosiecka dolina","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg"],
+  type:["pakostovité","astrovité","fialkovité","iskerníkovité",'hluchavkovité','hluchavkovité','kapustovité','iskerníkovité']
 
 }
 
