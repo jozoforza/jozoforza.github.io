@@ -1,22 +1,22 @@
 
 //0
 const huby = {
-  linky: ["huby/cervenahuba.jpg"],
-  nazvy: ["cervena Huba"],
-  stavy: [false],
-  dates: ["7.4."],
-  places: ["Sandberg"],
-  type:["huby"]
+  linky: ["huby/diskovnikmurovity.jpg",'huby/tercovkabublinata.jpg','huby/hlivabukova.jpg'],
+  nazvy: ["Diskovník múrovitý","Terčovka bublinatá","Hliva buková"],
+  stavy: [false,false,false],
+  dates: ["4.6.","4.6.","17.11."],
+  places: ["Karlova Ves","Karlova Ves","Malé Karpaty"],
+  type:["lysajníky","lysajníky","huby"]
 
 };
 //1
 const riasy = {
-  linky: ["riasy/cervena.jpg","riasy/hneda.jpg","riasy/modra.jpg"],
-  nazvy: ["cervena Riasa","hneda Riasa","zelena Riasa"],
-  stavy: [false,false,false],
-  dates: ["8.4.","20.4.","13.4."],
-  places: ["Sag","SAg","sag"],
-  type:["riasovite","riasovite","riasovite"]
+  linky: ["riasy/zabivlas.jpg"],
+  nazvy: ["Žabí vlas"],
+  stavy: [false],
+  dates: ["10.5."],
+  places: ["Petržalka"],
+  type:["riasy"]
 }
 //2
 const machy ={
@@ -59,13 +59,14 @@ const monocot={
   linky: ['1-klicne/modricanebadana.jpg',
           '1-klicne/hyciant_vychodny.jpg',
         '1-klicne/ovsikobycajny.jpg',
-      '1-klicne/jacmenmysi.jpg'],
+      '1-klicne/jacmenmysi.jpg',
+      '1-klicne/snezienka.jpg'],
   nazvy: ['Modrica nebadaná',
-  'Hyacint východný','Ovsík obyčajný','Jačmeň myší'],
-  stavy: [false,false,false,false],
-  dates: ["29.3","29.3",'6.3.','6.3.'],
-  places: ["Sandberg","Sandberg", 'Karlova Ves','Karlova Ves'],
-  type:["asparágovité","asparágovité",'Lipnicovité','Lipnicovité']
+  'Hyacint východný','Ovsík obyčajný','Jačmeň myší','Snežienka jarná'],
+  stavy: [false,false,false,false,false],
+  dates: ["29.3","29.3",'6.3.','6.3.','7.3'],
+  places: ["Sandberg","Sandberg", 'Karlova Ves','Karlova Ves','Malé Karpaty'],
+  type:["asparágovité","asparágovité",'Lipnicovité','Lipnicovité','amarylkovité']
 
 }
 //6
