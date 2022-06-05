@@ -52,7 +52,7 @@ const specialne ={
   stavy: [false,false,false,false,false],
   dates: ['4.6.','3.6.','4.6.','10.5.','5.6.'],
   places: ['Karlova Ves','Karlova Ves','Karlova Ves','Karlova Ves','Karlova Ves'],
-  type:['púpencovité','tucnoliste','iskernikovite','pivonkovité','riasy']
+  type:['púpencovité','tučnolisté','iskerníkovité','pivonkovité','riasy']
 }
 //5
 const monocot={
