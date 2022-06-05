@@ -27,17 +27,17 @@ const nahograf={
 }
 const monograf={
     pocet: 10,
-    name: "jednoklíčnolisté",
+    name: "jednoklíčnolistové",
     graf: 0,
 }
 const digraf={
     pocet: 10,
-    name: "dvojklíčnolisté",
+    name: "dvojklíčnolistové",
     graf: 0,
 }
 const specialgraf={
     pocet: 5,
-    name: "špecialne",
+    name: "špeciálne",
     graf: 0,
 }
 const stlpce=[hubygraf,riasygraf,machograf,papragraf,nahograf,monograf,digraf,specialgraf];

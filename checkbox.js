@@ -6,7 +6,7 @@ const huby = {
   stavy: [false,false,false],
   dates: ["4.6.","4.6.","17.11."],
   places: ["Karlova Ves","Karlova Ves","Malé Karpaty"],
-  type:["lysajníky","lysajníky","huby"]
+  type:["lyšajníky","lyšajníky","huby"]
 
 };
 //1
@@ -70,7 +70,7 @@ const monocot={
   nazvy: ['Modrica nebadaná',
   'Hyacint východný','Ovsík obyčajný','Jačmeň myší','Snežienka jarná','Kosatec nízky','Kosatec iberský','Šafran bielokvetý','Šafran dvojkvetý','Cesnak medvedí'],
   stavy: [false,false,false,false,false,false,false,false,false,false],
-  dates: ["29.3","29.3",'3.6.','3.6.','7.3.',"17.4.","17.4.",'7.3.','4.6.','5.5.'],
+  dates: ["29.3.","29.3.",'3.6.','3.6.','7.3.',"29.3.","29.3.",'17.4.','4.6.','5.5.'],
   places: ["Sandberg","Sandberg", 'Karlova Ves','Karlova Ves','Malé Karpaty',"Sandberg","Sandberg","Prosiecka dolina",'Karlova Ves','Malé Karpaty'],
   type:["asparágovité","asparágovité",'Lipnicovité','Lipnicovité','amarylkovité','kosatcovité','kosatcovité','kosatcovité','kosatcovité','amarylkovité']
 
@@ -91,7 +91,7 @@ const dicot={
 
   nazvy: ['Bocianik rozpukovitý','Deväťsil biely','Fialka voňavá','Hlaváčik jarný','Hluchavka objímavá','Hluchavka purpurová','Kapsička pastierska','Poniklec veľkokvetý','Mak vlčí','Soldanelka alpínska'],
   stavy: [false,false,false,false,false,false,false,false,false],
-  dates: ["29.3","17.4.","29.3","29.3","17.4.","17.4.","17.4.","17.4.","17.4.","17.4.",'4.6.','28.5.'],
+  dates: ["29.3.","17.4.","29.3.","29.3.","29.3.","29.3.","29.3.","29.3.",'4.6.',"28.5."],
   places: ["Sandberg","Prosiecka dolina","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg","Sandberg",'Karlova Ves','Vysoké Tatry'],
   type:["pakostovité","astrovité","fialkovité","iskerníkovité",'hluchavkovité','hluchavkovité','kapustovité','iskerníkovité','makovité','prvosienkovité']
 
