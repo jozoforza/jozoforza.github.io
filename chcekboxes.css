@@ -61,7 +61,14 @@
     color: rgb(177, 177, 177);
     display: flex;
     align-items: center;
+    
     justify-content: space-between;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .boxText{
     font-family: 'Karla', sans-serif;

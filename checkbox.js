@@ -69,7 +69,7 @@ const monocot={
   nazvy: ['Modrica nebadaná',
   'Hyacint východný','Ovsík obyčajný','Jačmeň myší','Snežienka jarná','Kosatec nízky','Kosatec iberský','Šafran bielokvetý','Šafran dvojkvetý'],
   stavy: [false,false,false,false,false,false,false,false,false],
-  dates: ["29.3","29.3",'3.6.','3.6.','7.3',"17.4.","17.4.",'7.3.','4.6.'],
+  dates: ["29.3","29.3",'3.6.','3.6.','7.3.',"17.4.","17.4.",'7.3.','4.6.'],
   places: ["Sandberg","Sandberg", 'Karlova Ves','Karlova Ves','Malé Karpaty',"Sandberg","Sandberg","Prosiecka dolina",'Karlova Ves'],
   type:["asparágovité","asparágovité",'Lipnicovité','Lipnicovité','amarylkovité','kosatcovité','kosatcovité','kosatcovité','kosatcovité']
 
@@ -105,8 +105,8 @@ for(i=0;i<objekty.length;i++){
       <div class="okraj" id="${objekty[i].nazvy[a]+"_okraj"}">
       <div id="${objekty[i].nazvy[a]}" class="galeryBox" style="background-image: url(${objekty[i].linky[a]});">
         <div class="imageText" id="${i+"text"+a}" onclick="textFunction(this.id)">
-          <p class="nazov_image_textu" class="unselectable" style="text-align: center; padding: 0px;margin: 5px;">${objekty[i].nazvy[a]}</p>
-          <p class="druh_image_textu" class="unselectable" style="text-align: center; padding: 0px;margin: 0px;">${objekty[i].type[a]}</p>
+          <p class="nazov_image_textu" style="text-align: center; padding: 0px;margin: 5px;">${objekty[i].nazvy[a]}</p>
+          <p class="druh_image_textu" style="text-align: center; padding: 0px;margin: 0px;">${objekty[i].type[a]}</p>
           <div style="margin:20px">
             <p class="unselectable" style="text-align: left;margin: 0px; ">miesto: ${objekty[i].places[a]}</p>
             <p class="unselectable" style="text-align: left;margin: 0px; ">dátum: ${objekty[i].dates[a]}</p>
