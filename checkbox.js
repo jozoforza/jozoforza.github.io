@@ -21,7 +21,7 @@ const riasy = {
 //2
 const machy ={
   linky: ["machy/lomikamenmachovity.jpg"],
-  nazvy: ["Lomikameň machovitý"],
+  nazvy: ["Merík vlnkatý"],
   stavy: [false],
   dates: ["4.6."],
   places: ["Karlova Ves"],
